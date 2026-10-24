@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Victoria's Journal</title>
+    <style>
+        body {
+            font-family: "Courier New", Courier, monospace;
+            background-color: lightcyan;
+            margin: 20px;
+            padding: 0;
+        }
+
+        #header {
+            background-color: white;
+            border: 4px solid aquamarine;
+            margin-bottom: 15px;
+            padding: 15px;
+            text-align: right;
+        }
+
+        #header h1 {
+            color: darkcyan;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        #header .subtitle {
+            color: turquoise;
+            margin: 5px 0 0 0;
+        }
+
+        #main-content {
+            overflow: hidden;
+        }
+
+        #sidebar {
+            background-color: darkturquoise;
+            border: 4px solid darkcyan;
+            float: left;
+            width: 20%;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        #sidebar h2 {
+            color: white;
+            font-weight: bold;
+            margin-top: 0;
+        }
+
+        #sidebar ul {
+            list-style-type: square;
+            padding-left: 20px;
+            color: white;
+        }
+
+        #entries {
+            float: right;
+            width: 76%;
+            box-sizing: border-box;
+        }
+
+        .entry {
+            background-color: white;
+            border: 4px solid aquamarine;
+            margin-bottom: 15px;
+            padding: 15px;
+            overflow: hidden;
+        }
+
+        .entry h2 {
+            color: darkcyan;
+            font-weight: normal;
+            margin-top: 0;
+        }
+
+        .entry .date {
+            text-decoration: underline;
+        }
+
+        .entry-content p {
+            float: left;
+            width: 65%;
+            margin: 0;
+            color: gray;
+            line-height: 1.4;
+        }
+
+        .entry-content img {
+            float: right;
+            width: 30%;
+            border: 1px solid lightgray;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <h1>Victoria's Journal</h1>
+        <p class="subtitle">So fresh and so clean</p>
+    </div>
+
+    <div id="main-content">
+        <div id="sidebar">
+            <h2>Friends</h2>
+            <ul>
+                <li><span class="friend-name">Big Will</span></li>
+                <li><span class="friend-name">Friend 2</span></li>
+                <li><span class="friend-name">Friend 3</span></li>
+            </ul>
+        </div>
+
+        <div id="entries">
+            <div class="entry">
+                <h2><span class="date">04/09/08:</span> Spatulas</h2>
+                <div class="entry-content">
+                    <p>Yesterday, I went to the store and got some much needed spatulas (what better way to say I love myself than to buy myself a spatula?)</p>
+                    <img src="C:\Users\l260845\Documents\038273d9-ff32-4fa4-84d8-a7155d8893cf.webp" alt="Spatula">
+                </div>
+            </div>
+
+            <div class="entry">
+                <h2><span class="date">04/08/08:</span> Cookie Cupcakes</h2>
+                <div class="entry-content">
+                    <p>My favorite cartoon character is cookie and my favorite dessert is cupcakes. So Cookie Cupcakes are best of both worlds. Did you know? Cookie character once said... Sometimes me think what is love, and then me think love is what cookie is for. Me give up the last cookie for you. I wonder if the same applies for the cupcakes? (If so, I don't think I can ever love ANYONE!)</p>
+                    <img src="C:\Users\l260845\Documents\gowtham-agm--iA8cvuAfNU-unsplash.jpg" alt="Cupcakes">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
